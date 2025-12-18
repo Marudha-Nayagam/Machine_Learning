@@ -1,0 +1,56 @@
+🔹 Basic Level:
+Q1. What problem are you solving in this project?
+👉 Predicting salary based on years of experience using Simple Linear Regression.
+
+Q2. Why did you choose Simple Linear Regression?
+👉 Because there is one independent variable and one dependent variable with a linear relationship.
+
+Q3. What is the equation of Simple Linear Regression?
+👉 y = mx + b
+
+🔹 Medium Level
+
+Q4. What does coef_ represent in your model?
+👉 It represents the slope (weight), showing how much salary increases per year of experience.
+
+Q5. What does intercept_ represent?
+👉 It represents the base salary when years of experience is zero.
+
+Q6. Why did you use train-test split?
+👉 To evaluate model performance on unseen data and avoid overfitting.
+
+Q7. Why did you use R² score?
+👉 It explains how well the independent variable explains the variance in the dependent variable.
+
+🔹 Advanced Level
+
+Q8. Why did you use Pickle in this project?
+👉 To save the trained model and reuse it later without retraining.
+
+Q9. What happens if R² score is negative?
+👉 It indicates the model performs worse than predicting the mean.
+
+Q10. How would you improve this model?
+👉
+
+Add more relevant features
+Handle outliers
+Try Polynomial Regression
+Increase dataset size
+
+
+🔹 Coding-Based
+
+Q11. Why should input be 2D in predict()?
+👉 Scikit-learn expects input as a 2D array: (n_samples, n_features).
+
+Q12. Why do we visualize the regression line?
+👉 To understand the linear relationship and model fit visually.
+
+
+
+4️⃣ Final Tip (Very Important 💡)
+
+In interviews, explain like this 👇
+
+“I built a Simple Linear Regression model to predict salary using years of experience, evaluated it using R² score, visualized the regression line, and deployed it by saving the model with Pickle for future predictions.”
